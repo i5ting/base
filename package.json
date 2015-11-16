@@ -1,0 +1,27 @@
+{
+  "name": "mbase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i5ting/base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/base/issues"
+  },
+  "homepage": "https://github.com/i5ting/base#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.9.2",
+    "merge2": "^0.3.6"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
