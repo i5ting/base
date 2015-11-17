@@ -108,3 +108,31 @@ this.app.use(function(req, res, next) {
   next(err);
 });
 ```
+
+## 智能编译
+
+比如
+
+```
+import logger = require('morgan');
+import cookieParser = require('cookie-parser');
+import bodyParser = require('body-parser');
+```
+
+但是我没有任何引用，那么它是不会编译的
+
+比如加一行
+
+```
+console.log(logger);
+```
+
+上面的第一行就会被编译。
+
+```
+var logger = require('morgan');
+console.log(logger);
+```
+
+在ast层面做了处理，挺好用的。
+

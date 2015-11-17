@@ -24,13 +24,14 @@ class App {
 
     this.setView('jade');
     this.mountMiddleWare();
-    this.setNotFound();
+    
     this.setPublicFolder(path.join(__dirname, 'public'));
 
     this.app.get('/', function(req, res) {
       res.send('Hello World, typescript')
     })
-
+    
+    this.setNotFound();
 
   }
   // start server
