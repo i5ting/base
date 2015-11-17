@@ -6,19 +6,19 @@
   "bundle": "typings/tsd.d.ts",
   "installed": {
     "express/express.d.ts": {
-      "commit": "393cfa621e2e66bc0a7bb7238893bc18ef3e6103"
+      "commit": "c560ba6f0f55ce6f50e9d06e37b5bc0e2b9117b0"
     },
     "body-parser/body-parser.d.ts": {
       "commit": "393cfa621e2e66bc0a7bb7238893bc18ef3e6103"
     },
     "node/node.d.ts": {
-      "commit": "393cfa621e2e66bc0a7bb7238893bc18ef3e6103"
+      "commit": "c560ba6f0f55ce6f50e9d06e37b5bc0e2b9117b0"
     },
     "mime/mime.d.ts": {
-      "commit": "393cfa621e2e66bc0a7bb7238893bc18ef3e6103"
+      "commit": "c560ba6f0f55ce6f50e9d06e37b5bc0e2b9117b0"
     },
     "serve-static/serve-static.d.ts": {
-      "commit": "393cfa621e2e66bc0a7bb7238893bc18ef3e6103"
+      "commit": "c560ba6f0f55ce6f50e9d06e37b5bc0e2b9117b0"
     },
     "cookie-parser/cookie-parser.d.ts": {
       "commit": "393cfa621e2e66bc0a7bb7238893bc18ef3e6103"
@@ -31,6 +31,9 @@
     },
     "morgan/morgan.d.ts": {
       "commit": "393cfa621e2e66bc0a7bb7238893bc18ef3e6103"
+    },
+    "serve-favicon/serve-favicon.d.ts": {
+      "commit": "c560ba6f0f55ce6f50e9d06e37b5bc0e2b9117b0"
     }
   }
 }

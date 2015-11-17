@@ -8,3 +8,4 @@
 /// <reference path="jade/jade.d.ts" />
 /// <reference path="log4js/log4js.d.ts" />
 /// <reference path="morgan/morgan.d.ts" />
+/// <reference path="serve-favicon/serve-favicon.d.ts" />

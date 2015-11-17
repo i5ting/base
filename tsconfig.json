@@ -1,9 +1,9 @@
 {
 	"files": [
-		"src/index.ts"
+		"src/index.ts",
+		"src/App.ts"
 	],
 	"compilerOptions": {
-		
 		"module": "commonjs",
 		"moduleResolution": "node"
 	}
