@@ -1,6 +1,9 @@
 
 # ts
 
+## book
+
+https://basarat.gitbooks.io/typescript/
 
 ## load from d.ts
 
