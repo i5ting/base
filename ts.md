@@ -69,3 +69,42 @@ gulp.task('default', ['watch'], function() {
   console.log('default...');
 });
 ```
+
+## 异常处理
+
+express里
+
+```
+app.use(function(req, res, next) {
+  var err = new Error('Not Found');
+  err.status = 404;
+  next(err);
+});
+```
+
+但是ECMAScript APIs里没有status扩展的，定义如下
+
+```
+interface Error {
+    name: string;
+    message: string;
+}
+```
+
+此时需要自己扩展
+
+```
+class ReqError extends Error {
+  status: number;
+}
+```
+
+用起来如下
+
+```
+this.app.use(function(req, res, next) {
+  var err = new ReqError('Not Found');
+  err.status = 404;
+  next(err);
+});
+```
